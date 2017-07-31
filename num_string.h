@@ -1,4 +1,6 @@
-﻿#include <string>
+﻿#ifndef __NUMSTRING_H__
+#define __NUMSTRING_H__
+#include <string>
 #include <sstream>
 
 //demo:	StringToNum<int>(str1, i1)
@@ -19,3 +21,4 @@ bool NumToString(const Type& num, std::string &str) {
 	str = oss.str();
 	return true;
 }
+#endif
