@@ -10,3 +10,5 @@ base64的编码和解码</br>
 unicode和utf8之间的转换</br>
 - **split_filename.h**</br>
 从路径中获取文件名(包括window和linux) 如/file/path/hello.txt中提取hello.txt
+- **split_string.h**</br>
+将字符串按照指定的分隔符进行分割
